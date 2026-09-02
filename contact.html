@@ -3,73 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Information for JNEC Events  - Home</title>
-   <link rel="stylesheet" href="css/styles.css">
-    <!-- 1. Bootstrap CSS (framework) --> 
-   <link 
+    <title>JNEC Events Hub - Contact</title>
+    <!-- 1. Bootstrap CSS -->
+    <link 
 href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
-      rel="stylesheet"> 
-   <!-- 2. Font Awesome (icons) --> 
-   <link rel="stylesheet" 
-         
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"> 
-   <!-- 3. YOUR CSS last so you can override Bootstrap --> 
-   <link rel="stylesheet" href="css/styles.css">
+rel="stylesheet">
+    <!-- 2. Font Awesome -->
+    <link rel="stylesheet" 
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- 3. YOUR CSS -->
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header id="top">
         <h1>JNEC Events Hub</h1>
         <nav>
-            <a href="index.html" title="Go to home page">Home</a>
-             <a href="events.html">Events</a>
-             <a href="register.html">Register</a>
-             <a href="gallery.html">Gallery</a>
-             <a href="contact.html">Contact</a>
+            <a href="index.html">Home</a>
+            <a href="events.html">Events</a>
+            <a href="register.html">Register</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
         </nav>
     </header>
+
     <main>
-        <!-- page content here-->
-         <h1>Contact Us</h1>
+        <div class="container py-5">
+            <!-- Page Title -->
+            <h1 class="text-center mb-5" style="color: #0f172a;">📬 Contact Us</h1>
 
-<p><strong>Address:</strong> Jigme Namgyel Engineering College, Dewathang, Bhutan</p>
-
-<p><strong>Email:</strong>
-    <a href="mailto:info@jnec.edu.bt">05240130@jnec.edu.bt</a>
-</p>
-
-<p><strong>Phone:</strong> +975 17319436</p>
-
-<h2>Our Location</h2>
-
-<iframe
-src="https://www.google.com/maps?q=Jigme+Namgyel+Engineering+College&output=embed"
-width="300"
-height="200">
-</iframe>
-
-<h2>Enquiry Form</h2>
-
-<form>
-    <label>Name:</label><br>
-    <input type="text"><br><br>
-
-    <label>Email:</label><br>
-    <input type="email"><br><br>
-
-    <label>Message:</label><br>
-    <textarea rows="4" cols="30"></textarea><br><br>
-
-    <input type="submit" value="Submit">
-</form>
+            <!-- Contact Info Cards -->
+            <div class="row g-4 justify-content-center">
+                <!-- Address -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 text-center shadow-sm border-0">
+                        <div class="card-body">
+                            <i class="fa-solid fa-location-dot fa-2x text-danger mb-3"></i>
+                            <h5 class="card-title">Address</h5>
+                            <p class="card-text text-muted small">Jigme Namgyel Engineering College, Dewathang, Bhutan</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Email -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 text-center shadow-sm border-0">
+                        <div class="card-body">
+                            <i class="fa-solid fa-envelope fa-2x text-primary mb-3"></i>
+                            <h5 class="card-title">Email</h5>
+                            <p class="card-text text-muted small">
+                                <a href="mailto:05240130@jnec.edu.bt" class="text-decoration-none">05240130@jnec.edu.bt</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Phone -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 text-center shadow-sm border-0">
+                        <div class="card-body">
+                            <i class="fa-solid fa-phone fa-2x text-success mb-3"></i>
+                            <h5 class="card-title">Phone</h5>
+                            <p class="card-text text-muted small">+975 17319436</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Website -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 text-center shadow-sm border-0">
+                        <div class="card-body">
+                            <i class="fa-solid fa-globe fa-2x text-info mb-3"></i>
+                            <h5 class="card-title">Website</h5>
+                            <p class="card-text text-muted small">
+                                <a href="https://www.jnec.edu.bt" target="_blank" class="text-decoration-none">www.jnec.edu.bt</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
+
     <footer>
         <p>&copy; 2026 JNEC Events Hub</p>
     </footer>
-    <!-- existing header / main / footer stay here --> 
- 
-   <!-- Bootstrap JS — MUST be last, just before </body> (carousel needs this) --> 
-   <script 
+
+    <script 
 src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
-</script> 
+</script>
 </body>
 </html>
