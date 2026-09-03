@@ -137,3 +137,64 @@ margin: 4px 0;
 } 
 body { font-size: 15px; } 
 } 
+/* ===== Activity 8: Original CSS Rules ===== */
+
+/* Original Pseudo-class Rule */
+/* When you hover over any card, it scales up slightly and shows a shadow */
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Original Attribute Selector Rule */
+/* Styles all input fields with type="text" - adds blue border and glow on focus */
+input[type="text"]:focus {
+    border-color: #0369a1;
+    box-shadow: 0 0 8px rgba(3, 105, 161, 0.3);
+    outline: none;
+}
+
+/* Additional Pseudo-class Rule */
+/* Changes link color and adds underline when hovered */
+a:hover {
+    color: #d97706;
+    text-decoration: underline;
+}
+
+/* Additional Attribute Selector Rule */
+/* Styles submit buttons with dark background and white text */
+input[type="submit"] {
+    background-color: #0f172a;
+    color: white;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: #1e293b;
+}
+/* ===== Gallery Image Hover Effect ===== */
+
+/* When you hover over any gallery image, it scales up and shows a shadow */
+.gallery-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Optional: Add a border-radius and border to gallery images */
+.gallery-img {
+    border-radius: 10px;
+    border: 3px solid transparent;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.gallery-img:hover {
+    border-color: #0369a1;
+    transform: scale(1.05);
+    box-shadow: 0 8px 25px rgba(3, 105, 161, 0.3);
+}
