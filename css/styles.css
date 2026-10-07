@@ -245,3 +245,7 @@ body.dark h2 {
   float: right;
   margin-top: 4px;
 }
+.error { color: #b91c1c; font-size: 0.9rem; display: block; } 
+.sold-out-card { opacity: 0.85; } 
+body.dark { background: #0f172a; color: #e2e8f0; } 
+body.dark .card, body.dark .intro { background: #1e293b; color: #e2e8f0; }
