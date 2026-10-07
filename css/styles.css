@@ -198,3 +198,50 @@ input[type="submit"]:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 25px rgba(3, 105, 161, 0.3);
 }
+/* ===== Part L: Practical IV Extra CSS ===== */
+.error {
+  color: #b91c1c;
+  font-size: 0.9rem;
+  display: block;
+  margin-top: 0.25rem;
+}
+
+.sold-out-card {
+  opacity: 0.85;
+}
+
+.sold-out-card .card-title {
+  text-decoration: line-through;
+}
+
+body.dark {
+  background: #0f172a;
+  color: #e2e8f0;
+}
+
+body.dark header,
+body.dark footer {
+  background: #020617;
+}
+
+body.dark .card,
+body.dark .intro {
+  background: #1e293b;
+  color: #e2e8f0;
+  border-color: #334155;
+}
+
+body.dark h1,
+body.dark h2 {
+  color: #7dd3fc;
+}
+
+.seats-hint {
+  font-size: 0.95rem;
+  color: #0369a1;
+}
+
+#darkToggle {
+  float: right;
+  margin-top: 4px;
+}
